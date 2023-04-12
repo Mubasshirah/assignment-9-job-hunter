@@ -10,3 +10,13 @@
         padding: 10px 70px;
     }
 }
+.feature-button{
+    text-align: center;
+margin: 20px;
+    
+}
+.feature-button button{
+    color: white;
+    background-color:rgb(147, 87, 245);
+
+}

@@ -18,6 +18,10 @@ const FeaturedJob = () => {
             <div className='featuredJob-container'>
       {jobs.map(job=><SingleFeaturedJob job={job} key={job.id}></SingleFeaturedJob>)}
             </div>
+
+            <div className='feature-button'>
+                <button >View All Jobs</button>
+            </div>
         </div>
     );
 };

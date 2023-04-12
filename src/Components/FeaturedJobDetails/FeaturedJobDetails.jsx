@@ -5,20 +5,22 @@ import {  useLoaderData, useParams } from 'react-router-dom';
 const FeaturedJobDetails = () => {
     
     const [user, setUser] = useState(null);
-  const { userId } = useParams();
-
+  const { id } = useParams();
+console.log(id)
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('featuredJob.json');
+        // console.log(ud)
+      const response = await fetch('/featuredJob.json');
       const data = await response.json();
       console.log(data);
-      const userData = data.find((user) => user.id === Number(userId));
+      const userData = data.find((user) => user.id ==id);
       setUser(userData);
+      console.log(userData)
     };
 
     fetchData();
-  }, [userId]);
-   
+  }, [id]);
+   console.log(user)
  
     
     return (

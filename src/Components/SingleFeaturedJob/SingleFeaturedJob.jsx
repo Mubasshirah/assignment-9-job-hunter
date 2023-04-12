@@ -8,7 +8,7 @@ const SingleFeaturedJob = ({job}) => {
             <h4>{jobTitle}</h4>
             <p>{name}</p>
             <button className='type'>{jobType}</button> <button className='time'>{time}</button>
-            <p><span>{location}</span> <span>{salaryRange}</span></p> 
+            <p><span>{location}</span> <span className='span'>{salaryRange}</span></p> 
             <button className='details'>View Details</button>
         </div>
     );

@@ -1,0 +1,27 @@
+.FeaturedJobDetails{
+    display: flex;
+    gap: 20px;
+    padding: 30px 100px;
+   
+}
+.FeaturedJobDetailsLeft{
+    padding: 50px ;
+   
+    width: 70%;
+}
+.FeaturedJobDetailsRight{
+    padding: 30px;
+    background-color: rgb(239, 238, 241);
+    border-radius: 8px;
+  
+    margin-left: 30px;
+    width: 25%;
+}
+.featured-h2{
+    text-align: center;
+}
+.btn-feature{
+    background-color:rgb(147, 87, 245) ;
+    color: white;
+    margin-top: 50px;
+}

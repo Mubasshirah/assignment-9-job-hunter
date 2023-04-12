@@ -1,0 +1,12 @@
+.featuredJob-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 150px;
+    gap: 60px;
+}
+@media screen and (max-width:576px) {
+    .featuredJob-container{
+        grid-template-columns: 1fr;
+        padding: 10px 70px;
+    }
+}

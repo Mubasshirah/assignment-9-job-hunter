@@ -1,0 +1,18 @@
+.allJobs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+    padding: 20px 120px;
+    
+  
+}
+@media screen and (max-width:576px) {
+    .allJobs{
+        grid-template-columns: 1fr;
+    }
+}
+.job-category-description{
+    text-align: center;
+    padding: 20px 5px;
+}

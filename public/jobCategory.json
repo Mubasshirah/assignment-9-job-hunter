@@ -1,0 +1,27 @@
+[
+    {
+      "id": "64366538368227e93571d574",
+      "picture": "https://static.vecteezy.com/system/resources/previews/005/029/317/original/sun-flat-icon-single-high-quality-outline-symbol-of-spring-for-web-design-or-mobile-app-thin-line-signs-of-sun-for-design-logo-visit-card-etc-outline-pictogram-of-sun-free-vector.jpg",
+      "name": "Account & Finance",
+      "availability": "300+ jobs"
+    },
+    {
+      "id": "64366538acde0bf1da104fbe",
+      "picture": "https://st2.depositphotos.com/1672707/7726/v/450/depositphotos_77264238-stock-illustration-hand-with-pressed-finger.jpg",
+      "name": "Creative Design",
+      "availability": "100+ jobs"
+    },
+    {
+      "id": "64366538ffcfab7667bf9f74",
+      "picture": "https://media.istockphoto.com/id/588976360/vector/education-flat-design-single-isolated-icon.jpg?s=612x612&w=0&k=20&c=ZF3NrM0CJ8sSfelklKUBDHurVC9ImDeSU6e2TAaiwww=",
+      "name": "Marketing & Sales",
+      "availability": "300+ jobs"
+    },
+    {
+      "id": "64366538b3bcf5a2a58e8ed1",
+      "picture": "https://media.istockphoto.com/id/541272364/vector/pay-per-click-single-icon.jpg?s=612x612&w=is&k=20&c=icFxe3F1CW5t93Zbe1YdO89fJqc2-GvdVSQv50AXgQQ=",
+      "name": "Engineering Job",
+      "availability": "400+ jobs"
+    }
+    
+  ]

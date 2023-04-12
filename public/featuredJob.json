@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Google",
+      "picture": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw",
+      "jobTitle": "Software Engineer",
+      "id": 1,
+      "salaryRange": "$100k - $150k",
+      "location": "Mountain View, CA",
+      "jobType": "Onsite",
+      "time": "Full-time",
+      "jobDescription": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features.",
+    "jobExperience": "5+ years of experience in iOS app development",
+    "jobResponsibility": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features. Unit-test code for robustness, including edge cases, usability, and general reliability.",
+    "educationalQualification": "Bachelor's or Master's degree in Computer Science or related field"
+    },
+    {
+      "name": "Apple",
+      "picture": "https://www.apple.com/v/education/home/t/images/meta/education_overview__ccmf0v3aqnjm_og.png?202303220940",
+      "jobTitle": "iOS Developer",
+      "id": 2,
+      "salaryRange": "$150k - $200k",
+      "location": "Cupertino, CA",
+      "jobType": "Onsite",
+      "time": "Full-time",
+      "jobDescription": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features.",
+    "jobExperience": "5+ years of experience in iOS app development",
+    "jobResponsibility": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features. Unit-test code for robustness, including edge cases, usability, and general reliability.",
+    "educationalQualification": "Bachelor's or Master's degree in Computer Science or related field"
+    },
+    {
+      "name": "Facebook",
+      "picture": "https://i.pcmag.com/imagery/articles/04HUXgEu0I3mdCOejOjQpNE-5..v1620748900.jpg",
+      "jobTitle": "Data Scientist",
+      "id": 3,
+      "salaryRange": "$200k - $250k",
+      "location": "Menlo Park, CA",
+      "jobType": "Remote",
+      "time": "Full-time",
+      "jobDescription": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features.",
+    "jobExperience": "5+ years of experience in iOS app development",
+    "jobResponsibility": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features. Unit-test code for robustness, including edge cases, usability, and general reliability.",
+    "educationalQualification": "Bachelor's or Master's degree in Computer Science or related field"
+    },
+    {
+      "name": "Amazon",
+      "picture": "https://img.etimg.com/thumb/msid-59738992,width-640,resizemode-4,imgsize-25499/amazon.jpg",
+      "jobTitle": "Cloud Engineer",
+      "id": 4,
+      "salaryRange": "$250k - $300k",
+      "location": "Seattle, WA",
+      "jobType": "Onsite",
+      "time": "Full-time",
+      "jobDescription": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features.",
+    "jobExperience": "5+ years of experience in iOS app development",
+    "jobResponsibility": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features. Unit-test code for robustness, including edge cases, usability, and general reliability.",
+    "educationalQualification": "Bachelor's or Master's degree in Computer Science or related field"
+    },
+    {
+      "name": "Microsoft",
+      "picture": "https://cdn.vox-cdn.com/thumbor/ba88KSux9BR4YxRoCDODtY6o95A=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/55639013/DSCF1179.0.0.jpg",
+      "jobTitle": "AI Researcher",
+      "id": 5,
+      "salaryRange": "$300k - $350k",
+      "location": "Redmond, WA",
+      "jobType": "Remote",
+      "time": "Part-time",
+      "jobDescription": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features.",
+    "jobExperience": "5+ years of experience in iOS app development",
+    "jobResponsibility": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features. Unit-test code for robustness, including edge cases, usability, and general reliability.",
+    "educationalQualification": "Bachelor's or Master's degree in Computer Science or related field"
+    },
+    {
+      "name": "Tesla",
+      "picture": "https://storage.googleapis.com/afs-prod/media/c54bf07766a74f248eaeff2e23b67c86/2000.webp",
+      "jobTitle": "Autopilot Software Engineer",
+      "id": 6,
+      "salaryRange": "$350k - $400k",
+      "location": "Palo Alto, CA",
+      "jobType": "Onsite",
+      "time": "Full-time",
+      "jobDescription": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features.",
+    "jobExperience": "5+ years of experience in iOS app development",
+    "jobResponsibility": "Design and build advanced applications for the iOS platform. Collaborate with cross-functional teams to define, design, and ship new features. Unit-test code for robustness, including edge cases, usability, and general reliability.",
+    "educationalQualification": "Bachelor's or Master's degree in Computer Science or related field"
+    }
+  ]
+  

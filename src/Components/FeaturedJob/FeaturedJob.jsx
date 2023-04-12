@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './FeaturedJob.css'
 import { useLoaderData } from 'react-router-dom';
 import SingleFeaturedJob from '../SingleFeaturedJob/SingleFeaturedJob';
 const FeaturedJob = () => {
-  const [jobs,setJobs]=useState([]);
-  useEffect(()=>{
-    fetch('featuredJob.json')
-    .then(res=>res.json())
-    .then(data=>setJobs(data))
-  },[])
+ const jobs=useLoaderData();
+
     return (
         <div >
          <div className="job-category-description">

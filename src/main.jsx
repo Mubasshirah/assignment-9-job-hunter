@@ -18,30 +18,38 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    children:[
+    children: [
       {
-        path:'/',
-        element:<Home></Home>,
-        loader:()=>fetch('jobCategory.json'),
-       
-        
+        path: '/home',
+        element: <Home></Home>,
+        loader: () => fetch('featuredJob.json')
+
+
       },
       {
-        path:'/statistics',
-        element:<Statistics></Statistics>
+        path:'/home/:id',
+        element:<FeaturedJobDetails></FeaturedJobDetails>
       },
       {
-        path:'/applied',
-        element:<AppliedJob></AppliedJob>
+        path: '/statistics',
+        element: <Statistics></Statistics>
       },
       {
-        path:'/blog',
-        element:<Blog></Blog>
+        path: '/applied',
+        element: <AppliedJob></AppliedJob>
       },
       {
-        path:'/:singleId',
-        element:<FeaturedJobDetails></FeaturedJobDetails>,
-        loader:({params})=>fetch(`featuredJob.json/${params.singleId}`)
+        path: '/blog',
+        element: <Blog></Blog>
+      },
+      {
+
+      },
+
+      {
+        path: '*',
+        element: <div>404 data not found</div>
+
       }
     ]
   },
@@ -49,6 +57,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
- <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

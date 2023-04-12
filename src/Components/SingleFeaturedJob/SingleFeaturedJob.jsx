@@ -11,7 +11,8 @@ const SingleFeaturedJob = ({job}) => {
             <p>{name}</p>
             <button className='type'>{jobType}</button> <button className='time'>{time}</button>
             <p><span>{location}</span> <span className='span'>{salaryRange}</span></p> 
-            <Link to={`/${id}`}><button job={job} key={job.id} className='details'>View Details</button></Link>
+            <Link to={`/home/${id}`}><button  className='details'>View Details</button></Link>
+           
             
         </div>
     );
